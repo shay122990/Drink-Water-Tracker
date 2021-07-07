@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:400,600&display=swap");
+* {
+  box-sizing: border-box;
+}
+@media only screen and (min-device-width: 400px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/4609206/pexels-photo-4609206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
+
+h1 {
+  margin: 10px 0 0;
+}
+h3 {
+  text-decoration: underline #f55c47;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+}
+.cup {
+  background-color: #e4fbff;
+  border: 4px solid #007580;
+  color: #f55c47;
+  border-radius: 0 0 40px 40px;
+  height: 300px;
+  width: 150px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.cup.cup-small {
+  width: 50px;
+  height: 95px;
+  border-radius: 0 0 15px 15px;
+  background-color: #c0fefc;
+  color: #025955;
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+.cup.cup-small.full {
+  background-color: #28527a;
+  color: #fff;
+}
+.remained {
+  color: #025955;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  transition: 0.3s ease;
+}
+.remained span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.remained small {
+  font-size: 12px;
+}
+.percentage {
+  background-color: #28527a;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  height: 0;
+  transition: 0.3s ease;
+}
+.text {
+  color: #007580;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
